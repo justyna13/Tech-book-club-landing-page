@@ -2,7 +2,7 @@
 
 A portfolio project: a fully responsive landing page for a fictional tech book club, built with plain HTML5, Sass, and vanilla JavaScript.
 
-🔗 **Live demo:** _add your GitHub Pages / Netlify link here once deployed_
+🔗 **Live demo:** https://justyna13.github.io/Tech-book-club-landing-page/
 
 ## About this project
 
