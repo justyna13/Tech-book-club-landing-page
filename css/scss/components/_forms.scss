@@ -2,13 +2,13 @@
 
 .newsletter-form {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   gap: var(--space-sm);
   width: 100%;
   max-width: 28rem;
 
   @include tablet-up {
-    flex-direction: row;
+    flex-flow: row wrap;
   }
 }
 
@@ -35,6 +35,8 @@
 }
 
 .newsletter-form__status {
+  flex-basis: 100%;
+  width: 100%;
   font-size: 0.85rem;
 }
 
