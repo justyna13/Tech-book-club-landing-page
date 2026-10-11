@@ -1,0 +1,42 @@
+@use '../abstracts/mixins' as *;
+
+.cta {
+  text-align: center;
+}
+
+.cta__grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-lg);
+  max-width: 38rem;
+  margin-inline: auto;
+}
+
+.cta__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.cta .social-proof {
+  justify-content: center;
+}
+
+.cta__newsletter {
+  width: 100%;
+  padding-top: var(--space-lg);
+  border-top: 1px solid rgb(255 255 255 / 15%);
+}
+
+.cta__newsletter-label {
+  display: block;
+  margin-bottom: var(--space-sm);
+  font-size: 0.9rem;
+  color: rgb(255 255 255 / 75%);
+}
+
+.cta .newsletter-form {
+  margin-inline: auto;
+}

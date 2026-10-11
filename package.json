@@ -1,0 +1,23 @@
+{
+  "name": "tech-book-club-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An original landing page inspired by Frontend Mentor's Tech Book Club Landing Page challenge, built with plain HTML/Sass/vanilla JS.",
+  "type": "module",
+  "scripts": {
+    "sass:build": "sass css/scss/main.scss css/main.css --style=compressed --no-source-map",
+    "sass:watch": "sass css/scss/main.scss css/main.css --watch",
+    "format": "prettier --write .",
+    "lint:css": "stylelint \"css/scss/**/*.scss\"",
+    "lint:js": "eslint js/**/*.js",
+    "serve": "live-server ."
+  },
+  "devDependencies": {
+    "eslint": "^9.13.0",
+    "live-server": "^1.2.2",
+    "prettier": "^3.3.3",
+    "sass": "^1.80.6",
+    "stylelint": "^16.10.0",
+    "stylelint-config-standard-scss": "^13.1.0"
+  }
+}

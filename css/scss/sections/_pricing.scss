@@ -1,0 +1,24 @@
+@use '../abstracts/mixins' as *;
+
+.pricing__header {
+  text-align: center;
+  margin-inline: auto;
+  margin-bottom: var(--space-xl);
+}
+
+.pricing__header .section-heading__lead {
+  margin-inline: auto;
+}
+
+.pricing__grid {
+  display: grid;
+  gap: var(--space-md);
+
+  @include tablet-up {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop-up {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

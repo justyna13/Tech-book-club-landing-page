@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter &amp; Code — A tech book club for developers</title>
+    <meta
+      name="description"
+      content="Chapter & Code pairs your favorite tech reads with a community that actually finishes the book. Curated picks, live discussions, and ideas worth shipping."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <a class="visually-hidden" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="navbar" aria-label="Primary">
+          <a class="navbar__logo" href="#top">
+            <svg
+              class="navbar__logo-mark"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 5C10 3.5 6.5 3 4 3.5V18c2.5-.5 6 0 8 1.5 2-1.5 5.5-2 8-1.5V3.5C17.5 3 14 3.5 12 5Z"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linejoin="round"
+              />
+              <path d="M12 5v15" stroke="currentColor" stroke-width="1.6" />
+            </svg>
+            Chapter &amp; Code
+          </a>
+
+          <button
+            class="navbar__toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="navbar-panel"
+          >
+            <span class="visually-hidden">Toggle menu</span>
+            <svg class="navbar__toggle-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M4 6h16M4 12h16M4 18h16"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+
+          <div class="navbar__panel" id="navbar-panel">
+            <ul class="navbar__links">
+              <li><a class="navbar__link" href="#features">How it works</a></li>
+              <li><a class="navbar__link" href="#membership">Membership</a></li>
+              <li><a class="navbar__link" href="#testimonial">Stories</a></li>
+            </ul>
+            <a class="btn btn--primary navbar__cta" href="#membership">Join the club</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero -->
+      <section class="hero" id="top" aria-labelledby="hero-heading">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <span class="eyebrow">Tech book club</span>
+            <h1 id="hero-heading">Where developers read, discuss, and grow together</h1>
+            <p class="hero__lead">
+              Chapter &amp; Code pairs your favorite tech reads with a community that actually
+              finishes the book. Curated picks, live discussions, and a stack of ideas worth
+              shipping.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#membership">See membership plans</a>
+              <a class="btn btn--outline" href="#features">How it works</a>
+            </div>
+            <div class="social-proof">
+              <div class="avatar-stack" aria-hidden="true">
+                <span class="avatar-stack__item"
+                  ><img src="assets/images/avatars/avatar-1.jpg" alt=""
+                /></span>
+                <span class="avatar-stack__item"
+                  ><img src="assets/images/avatars/avatar-2.jpg" alt=""
+                /></span>
+                <span class="avatar-stack__item"
+                  ><img src="assets/images/avatars/avatar-3.jpg" alt=""
+                /></span>
+                <span class="avatar-stack__item"
+                  ><img src="assets/images/avatars/avatar-4.jpg" alt=""
+                /></span>
+              </div>
+              <div class="social-proof__rating">
+                <span class="social-proof__stars" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M10 1.5l2.6 5.4 5.9.8-4.3 4.2 1 5.9L10 15l-5.2 2.8 1-5.9-4.3-4.2 5.9-.8L10 1.5z"
+                    />
+                  </svg>
+                  <svg viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M10 1.5l2.6 5.4 5.9.8-4.3 4.2 1 5.9L10 15l-5.2 2.8 1-5.9-4.3-4.2 5.9-.8L10 1.5z"
+                    />
+                  </svg>
+                  <svg viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M10 1.5l2.6 5.4 5.9.8-4.3 4.2 1 5.9L10 15l-5.2 2.8 1-5.9-4.3-4.2 5.9-.8L10 1.5z"
+                    />
+                  </svg>
+                  <svg viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M10 1.5l2.6 5.4 5.9.8-4.3 4.2 1 5.9L10 15l-5.2 2.8 1-5.9-4.3-4.2 5.9-.8L10 1.5z"
+                    />
+                  </svg>
+                  <svg viewBox="0 0 20 20" fill="currentColor">
+                    <path
+                      d="M10 1.5l2.6 5.4 5.9.8-4.3 4.2 1 5.9L10 15l-5.2 2.8 1-5.9-4.3-4.2 5.9-.8L10 1.5z"
+                    />
+                  </svg>
+                </span>
+                <span class="social-proof__text">300+ developers already reading along</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image-wrapper">
+            <img
+              class="hero__image"
+              src="assets/images/hero/hero.jpg"
+              alt="A group of friends laughing together while discussing a book over coffee"
+              width="1200"
+              height="796"
+              loading="eager"
+              fetchpriority="high"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="section" id="features" aria-labelledby="feature-a-heading">
+        <div class="container">
+          <div class="feature">
+            <div class="feature__image-wrapper">
+              <img
+                class="feature__image"
+                src="assets/images/features/feature-a.jpg"
+                alt="Three women smiling and discussing books together at a bright table"
+                width="1000"
+                height="663"
+                loading="lazy"
+              />
+            </div>
+            <div class="feature__content">
+              <h2 id="feature-a-heading">Read together, learn faster</h2>
+              <p>
+                No more books collecting dust on your nightstand. We turn reading time into a habit
+                you'll actually keep, with a community that shows up chapter after chapter.
+              </p>
+              <ul class="checklist">
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Monthly tech book picks chosen by senior engineers</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Live and async discussion threads for every chapter</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Early access to new releases before they hit the shelves</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Ask-the-author sessions with working developers</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="feature feature--reverse" aria-labelledby="feature-b-heading">
+            <div class="feature__image-wrapper">
+              <img
+                class="feature__image"
+                src="assets/images/features/feature-b.jpg"
+                alt="A developer reading a book with a laptop open nearby"
+                width="1000"
+                height="1500"
+                loading="lazy"
+              />
+            </div>
+            <div class="feature__content">
+              <h2 id="feature-b-heading">Not your average book club</h2>
+              <p>
+                We blend the structure of a reading group with the practicality of a dev community.
+                No mandatory homework, no awkward small talk — just genuine curiosity turning
+                reading time into a career-grade habit.
+              </p>
+              <p>
+                Every discussion is framed around one question: what can we actually use on Monday
+                morning? That's the difference between finishing a book and growing from it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Membership / Pricing -->
+      <section class="section section--alt" id="membership" aria-labelledby="pricing-heading">
+        <div class="container">
+          <div class="pricing__header section-heading">
+            <span class="eyebrow">Membership options</span>
+            <h2 id="pricing-heading">Pick the plan that fits how you read</h2>
+            <p class="section-heading__lead">
+              Start for free, go deeper with Pro, or bring your whole team along.
+            </p>
+          </div>
+
+          <div class="pricing__grid">
+            <article class="pricing-card">
+              <h3>Starter</h3>
+              <p>For developers testing the waters.</p>
+              <p class="pricing-card__price">
+                <span class="pricing-card__price-value">$0</span>
+                <span class="pricing-card__price-period">/month</span>
+              </p>
+              <ul class="checklist">
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Access to the current book pick</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Public discussion threads</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Monthly recommendation newsletter</span>
+                </li>
+              </ul>
+              <a class="btn btn--outline btn--block" href="#">Join for free</a>
+            </article>
+
+            <article class="pricing-card pricing-card--featured">
+              <span class="pricing-card__badge">Most popular</span>
+              <h3>Pro</h3>
+              <p>For developers who finish what they start.</p>
+              <p class="pricing-card__price">
+                <span class="pricing-card__price-value">$9</span>
+                <span class="pricing-card__price-period">/month</span>
+              </p>
+              <ul class="checklist">
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Everything in Starter</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Full book archive &amp; reading guides</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Live monthly discussion calls</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Author Q&amp;A recordings</span>
+                </li>
+              </ul>
+              <a class="btn btn--primary btn--block" href="#">Subscribe now</a>
+            </article>
+
+            <article class="pricing-card">
+              <h3>Enterprise</h3>
+              <p>For teams that read — and ship — together.</p>
+              <p class="pricing-card__price">
+                <span class="pricing-card__price-value">Custom</span>
+              </p>
+              <ul class="checklist">
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Team accounts &amp; private channels</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Custom reading tracks per team</span>
+                </li>
+                <li class="checklist__item">
+                  <svg class="checklist__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path
+                      d="M4 10.5l3.5 3.5L16 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Dedicated success manager</span>
+                </li>
+              </ul>
+              <a class="btn btn--outline btn--block" href="#">Talk to us</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section
+        class="section testimonial-section"
+        id="testimonial"
+        aria-labelledby="testimonial-heading"
+      >
+        <h2 id="testimonial-heading" class="visually-hidden">What members are saying</h2>
+        <div class="container">
+          <figure class="testimonial">
+            <blockquote class="testimonial__quote">
+              "Chapter &amp; Code turned my solo reading pile into real conversations with people
+              who ship code every day. The discussions are worth more than the book itself."
+            </blockquote>
+            <figcaption class="testimonial__cite">
+              <strong>Dana Whitfield</strong>
+              <cite>Senior Software Engineer</cite>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Final CTA -->
+      <section class="section section--dark cta" aria-labelledby="cta-heading">
+        <div class="container cta__grid">
+          <h2 id="cta-heading">Ready to debug your reading list?</h2>
+          <p>
+            Join a community that turns technical reading into shared momentum — one chapter at a
+            time.
+          </p>
+          <div class="cta__actions">
+            <a class="btn btn--on-dark" href="#membership">Review membership options</a>
+            <div class="social-proof">
+              <div class="avatar-stack" aria-hidden="true">
+                <span class="avatar-stack__item"
+                  ><img src="assets/images/avatars/avatar-1.jpg" alt=""
+                /></span>
+                <span class="avatar-stack__item"
+                  ><img src="assets/images/avatars/avatar-2.jpg" alt=""
+                /></span>
+                <span class="avatar-stack__item"
+                  ><img src="assets/images/avatars/avatar-3.jpg" alt=""
+                /></span>
+                <span class="avatar-stack__item"
+                  ><img src="assets/images/avatars/avatar-4.jpg" alt=""
+                /></span>
+              </div>
+              <span class="social-proof__text">300+ developers already reading along</span>
+            </div>
+          </div>
+
+          <div class="cta__newsletter">
+            <span class="cta__newsletter-label" id="newsletter-label">
+              Get one great tech book recommendation a month, free.
+            </span>
+            <form class="newsletter-form" novalidate>
+              <div class="newsletter-form__field">
+                <label class="visually-hidden" for="newsletter-email">Email address</label>
+                <input
+                  class="newsletter-form__input"
+                  type="email"
+                  id="newsletter-email"
+                  name="email"
+                  placeholder="you@example.com"
+                  aria-describedby="newsletter-label"
+                  required
+                />
+              </div>
+              <button class="btn btn--on-dark" type="submit">Subscribe now</button>
+              <p class="newsletter-form__status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <a class="footer__logo" href="#top">
+              <svg
+                class="footer__logo-mark"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 5C10 3.5 6.5 3 4 3.5V18c2.5-.5 6 0 8 1.5 2-1.5 5.5-2 8-1.5V3.5C17.5 3 14 3.5 12 5Z"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                />
+                <path d="M12 5v15" stroke="currentColor" stroke-width="1.6" />
+              </svg>
+              Chapter &amp; Code
+            </a>
+            <p class="footer__tagline">
+              A tech book club for developers who'd rather discuss the chapter than just finish it.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="footer__heading">Product</h3>
+            <ul class="footer__links">
+              <li><a href="#features">How it works</a></li>
+              <li><a href="#membership">Membership</a></li>
+              <li><a href="#testimonial">Stories</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__heading">Company</h3>
+            <ul class="footer__links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__heading">Legal</h3>
+            <ul class="footer__links">
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Terms of service</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__copyright">&copy; 2026 Chapter &amp; Code. All rights reserved.</p>
+          <div class="footer__social">
+            <a class="footer__social-link" href="#" aria-label="Chapter & Code on GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 2a10 10 0 00-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 015 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0012 2z"
+                />
+              </svg>
+            </a>
+            <a class="footer__social-link" href="#" aria-label="Chapter & Code on X (Twitter)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M18.9 2H22l-7.6 8.7L23 22h-6.8l-5.3-6.9L4.8 22H1.7l8.1-9.3L1 2h7l4.8 6.3L18.9 2zm-1.2 18h1.9L6.4 4H4.3l13.4 16z"
+                />
+              </svg>
+            </a>
+            <a class="footer__social-link" href="#" aria-label="Chapter & Code on LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M6.94 5a2 2 0 11-4-.002 2 2 0 014 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
